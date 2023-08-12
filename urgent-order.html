@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="" name="description" />
+    <meta content="madetoperfect" name="author" />
+    <title>Made To Perfect</title>
+    <!-- Bootstrap Styles-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Custom Styles-->
+    <link href="assets/css/custom-styles.css" rel="stylesheet" />
+    <!-- Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <!-- TABLE STYLES-->
+    <link href="assets/js/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default top-navbar" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="assets/img/mtp-logo-2.png" alt="" style="position: absolute;top:0;" width="150px;"></a>
+                <div id="sideNav" href="">
+                    <i class="fa fa-bars icon"></i>
+                </div>
+            </div>
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-messages">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>XYZ</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Today</em>
+                                    </span>
+                                </div>
+                                <div>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>XYZ</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem Ipsum has been the industry's standard dummy text ever since an kwilnw...
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>XYZ</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem Ipsum has been the industry's standard dummy text ever since the...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>Read All Messages</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-messages -->
+                </li>
+
+
+
+                <!-- User Profile -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+
+                </li>
+
+            </ul>
+        </nav>
+        <!--/. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+
+                    <li>
+                        <a href="index.html"><i class="fa fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="cust-1.html"><i class="fa fa-desktop"></i> Customer Management</a>
+                    </li>
+
+                    <li>
+                        <a href="#"><i class="fa fa-sitemap"></i> Service and Charges<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="service.html">Services</a>
+                            </li>
+                            <li>
+                                <a href="charge.html">Charges</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="active-menu"><i class="fa fa-qrcode"></i>Order Management<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="order_list.html" >Order List</a>
+                            </li>
+                            <li>
+                                <a href="return_order.html">Return Order</a>
+                            </li>
+                            <li>
+                                <a href="urgent-order.html">Urgent Order</a>
+                            </li>
+                            <li>
+                                <a href="order_history.html">Order History</a>
+                            </li>
+                            <li>
+                                <a href="order-status.html">Order Status</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="delivery.html"><i class="fa fa-table"></i> Delivery Management</a>
+                    </li>
+                    <li>
+                        <a href="employee.html"><i class="fa fa-edit"></i> Employee Management </a>
+                    </li>
+
+                    <li>
+                            <a href="#"><i class="fa fa-sitemap"></i> Center Management<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="center-user.html">Center User</a>
+                                </li>
+                                <li>
+                                    <a href="all-center.html">All Centers</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                                <a href="treatment.html"><i class="fa fa-wrench" ></i> Treatment Management</a>
+                            </li>
+                            <li>
+                                    <a href="expenses.html"> <i class="fa fa-money"></i> Expense Management</a>
+                            </li>
+
+                            
+                       <li>
+                            <a href="discount.html"> <i class="fa fa-percent"></i>Discount Coupen</a>
+                    </li>
+                    <li>
+                            <a href="#"><i class="fa fa-user"></i> Admin Account<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="admin-login.html"> Login</a>
+                                </li>
+                                <li>
+                                    <a href="admin-register.html">Registration</a>
+                                </li>
+                            </ul>
+                        </li>
+                    <li>
+                            <a href="report.html"><i class="fa fa-fw fa-file"></i>Report</a>
+                        </li>
+                    <li>
+                        <a href="faq.html"><i class="fa fa-fw fa-file"></i> FAQs</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper">
+            <div class="header">
+                <h1 class="page-header">
+                   Urgent Order List
+                </h1>
+
+
+            </div>
+
+            <div id="page-inner">
+
+
+
+                <!--  Main-Content -->
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Advanced Tables -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                              Urgent Order Details
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-bordered table-hover"
+                                        id="dataTables-example">
+                                        <thead>
+                                            <tr>
+                                                <th>Id</th>
+                                                <th>Order No.</th>
+                                                <th>Customer Name</th>
+                                                <th>Center Name</th>
+                                                <th>Mobile No.</th>
+                                                <th>Address</th>
+                                                <th>Total Items</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="odd gradeX">
+                                                <td>1</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+
+
+
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>2</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>3</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="even gradeA">
+                                                <td>4</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>5</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="even gradeA">
+                                                <td>6</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                     
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>7</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>8</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>9</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>10</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>11</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>12</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                 
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>13</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>14</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>15</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                  
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>16</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                  
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>17</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                       
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>19</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                  
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>18</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>20</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>21</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                 
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>22</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                  
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>23</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>24</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>25</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>26</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                  
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>27</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>28</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>29</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>30</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>31</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>32</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>33</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>34</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>35</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>36</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                  
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>37</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                  
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>38</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>39</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>40</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>41</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                  
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>42</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>43</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeC">
+                                                <td>44</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>45</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>46</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                 
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeX">
+                                                <td>47</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeC">
+                                                <td>48</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeC">
+                                                <td>49</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>50</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeA">
+                                                <td>51</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                               
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeX">
+                                                <td>52</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                  
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeX">
+                                                <td>53</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeX">
+                                                <td>54</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                 
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeC">
+                                                <td>55</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                  
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeC">
+                                                <td>56</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                   
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="gradeU">
+                                                <td>57</td>
+                                                <td>#000</td>
+                                                <td>ABC</td>
+                                                <td>Lorem, ipsum.</td>
+                                                <td>+00 00 000</td>
+                                                <td>Lorem, ipsum dolor.</td>
+                                                <td>00</td>
+                                                <td>
+                                                    
+                                                    <a href="Invoice.pdf" target="_blank">View Order</a>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--End Advanced Tables -->
+                    </div>
+                </div>
+
+            </div>
+            <footer>
+
+                <strong> &copy; madetoperfect.com </strong> All Rights Reserved 2021. Designed by <a href="#"
+                    style="color:black;">WebSparkSolutions</a>
+
+
+            </footer>
+        </div>
+        <!-- /. PAGE INNER  -->
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+            var actions = $("table td:last-child").html();
+            // Append table with add row form on add new button click
+            $(".add-new").click(function () {
+                $(this).attr("disabled", "disabled");
+                var index = $("table tbody tr:last-child").index();
+                var row = '<tr>' +
+                    '<td><input type="text" class="form-control" name="id" id="c_id"></td>' +
+                    '<td><input type="text" class="form-control" name="name" id="c_name"></td>' +
+                    '<td><input type="text" class="form-control" name="service-name" id="s_name" ></td>' +
+                    '<td><input type="text" class="form-control" name="description" id="desc"></td>' +
+                    '<td><input type="text" class="form-control" name="price" id="price"></td>' +
+                    '<td><input type="text" class="form-control" name="status" id="status"></td>' +
+                    '<td>' + actions + '</td>' +
+                    '</tr>';
+                $("table").append(row);
+                $("table tbody tr").eq(index + 1).find(".add, .edit").toggle();
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+            // Add row on add button click
+            $(document).on("click", ".add", function () {
+                var empty = false;
+                var input = $(this).parents("tr").find('input[type="text"]');
+                input.each(function () {
+                    if (!$(this).val()) {
+                        $(this).addClass("error");
+                        empty = true;
+                    } else {
+                        $(this).removeClass("error");
+                    }
+                });
+                $(this).parents("tr").find(".error").first().focus();
+                if (!empty) {
+                    input.each(function () {
+                        $(this).parent("td").html($(this).val());
+                    });
+                    $(this).parents("tr").find(".add, .edit").toggle();
+                    $(".add-new").removeAttr("disabled");
+                }
+            });
+            // Edit row on edit button click
+            $(document).on("click", ".edit", function () {
+                $(this).parents("tr").find("td:not(:last-child)").each(function () {
+                    $(this).html('<input type="text" class="form-control" value="' + $(this)
+                        .text() + '">');
+                });
+                $(this).parents("tr").find(".add, .edit").toggle();
+                $(".add-new").attr("disabled", "disabled");
+            });
+            // Delete row on delete button click
+            $(document).on("click", ".delete", function () {
+                $(this).parents("tr").remove();
+                $(".add-new").removeAttr("disabled");
+            });
+        });
+    </script>
+
+
+
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Js -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <!-- DATA TABLE SCRIPTS -->
+    <script src="assets/js/dataTables/jquery.dataTables.js"></script>
+    <script src="assets/js/dataTables/dataTables.bootstrap.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#dataTables-example').dataTable();
+        });
+    </script>
+    <!-- Custom Js -->
+    <script src="assets/js/custom-scripts.js"></script>
+
+
+</body>
+
+</html>
